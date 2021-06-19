@@ -15,8 +15,14 @@ public class WebElementsConstants {
 
     public static By btn_kategori=By.cssSelector("label[for='category0']");
 
+    public static By btn_oda_tipi = By.cssSelector("section[class='roomTypeSec'] section div");
+    public static By btn_oda_tipi_1 = By.xpath("//label[span[contains(text(),'2+1')]]");
 
+    public static By switch_site_sec = By.cssSelector("section[class='filter-switch withinSiteSec']");
 
+    public static By btn_search = By.cssSelector("a[class='btn btn-red btn-large']");
 
+    public static By third_offer = By.cssSelector("div[class='listView'] >div:nth-child(4)>div>div>div>a:nth-child(2)");
 
+    public static By btn_phone_number = By.xpath("//span[contains(text(),'Telefon Numarasını Göster')]/parent::button");
 }

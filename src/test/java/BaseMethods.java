@@ -39,9 +39,5 @@ public class BaseMethods {
         driver.get(x);
     }
 
-   /* void closePopUp(){
-        ChromeOptions options = new ChromeOptions();
-        options.setExperimentalOption("excludeSwitches", Arrays.asList("disable-popup-blocking"));
-        logger.setCapability(ChromeOptions.CAPABILITY, options);
-    }*/
+
 }
