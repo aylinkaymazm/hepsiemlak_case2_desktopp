@@ -4,7 +4,6 @@ public class WebElementsConstants {
 
     public static By  btn_kiralik_icon =By.cssSelector("[title='Kiralık İlanlar']");
 
-
     public static By btn_select_city = By.xpath("//span[contains(@class,'he-select-base__placeholder') and contains(text(),'İl Seçiniz')]");
     public static By btn_city_search = By.cssSelector("input[placeholder='İl Ara']");
     public static By btn_select_city_radio= By.cssSelector("[class=he-select__list-item]");
@@ -25,4 +24,6 @@ public class WebElementsConstants {
     public static By third_offer = By.cssSelector("div[class='listView'] >div:nth-child(4)>div>div>div>a:nth-child(2)");
 
     public static By btn_phone_number = By.xpath("//span[contains(text(),'Telefon Numarasını Göster')]/parent::button");
+
+
 }

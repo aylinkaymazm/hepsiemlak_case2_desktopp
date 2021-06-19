@@ -13,12 +13,11 @@ public class TestCases extends TestSteps {
         site_secim();
         select_3rd_offer();
         phone_numbers();
-
-//        exit();
+        exit();
     }
 
-    /*public void exit(){
+    public void exit(){
         driver.quit();
-    }*/
+    }
 
 }
